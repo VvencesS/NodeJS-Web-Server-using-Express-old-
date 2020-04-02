@@ -3,8 +3,15 @@ extends ../layouts/common
 block content
 	h1 Create user
 
-	div(class="container")
-		label Name
-		form(action="/users/create", method="POST", class="d-flex")
-			input(name="name", type="text", class="form-control")
-			button(class="btn btn-primary ml-2") Create	
+	if errors
+		each error in errors
+			.alert.alert-danger= error
+
+	form(action="/users/create", method="POST")
+		.form-group
+			label(for="name") Name
+			input#name.form-control(name="name", type="text", value=values ? values.name : '')
+		.form-group
+			label(for="phone") Phone
+			input#phone.form-control(name="phone", type="text", value=values ? values.phone : '')
+		button(class="btn btn-primary") Create	
