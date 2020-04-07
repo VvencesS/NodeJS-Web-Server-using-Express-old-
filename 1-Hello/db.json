@@ -3,7 +3,9 @@
     {
       "name": "Tran Duc Soan",
       "phone": "0335715608",
-      "id": "9e97eb"
+      "id": "9e97eb",
+      "email": "ducsoan99@gmail.com",
+      "password": "12345"
     },
     {
       "name": "Phan Thu Huong",
