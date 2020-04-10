@@ -5,27 +5,44 @@
       "phone": "0335715608",
       "id": "9e97eb",
       "email": "ducsoan99@gmail.com",
-      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+      "password": "827ccb0eea8a706c4c34a16891f84e7b",
+      "avatar": "uploads/a04fbc1252412fc557dbc7918d445085"
     },
     {
       "name": "Phan Thu Huong",
       "phone": "0332758394",
-      "id": "e12acc"
+      "id": "e12acc",
+      "avatar": "uploads/68dd6030920193e924d178c48231e161"
     },
     {
       "name": "Dinh Cong Phan",
       "phone": "0347683642",
-      "id": "ec665e"
+      "id": "ec665e",
+      "avatar": "uploads/a04fbc1252412fc557dbc7918d445085"
     },
     {
       "name": "Phi Thi Vi Huyen",
       "phone": "0334859307",
-      "id": "ea5564"
+      "id": "ea5564",
+      "avatar": "uploads/68dd6030920193e924d178c48231e161"
     },
     {
       "name": "Nguyen Thi Duyen",
       "phone": "0348275949",
-      "id": "ec0f95"
+      "id": "ec0f95",
+      "avatar": "uploads/68dd6030920193e924d178c48231e161"
+    },
+    {
+      "name": "Tran Van Hiep",
+      "phone": "04343853",
+      "id": "3445b7",
+      "avatar": "uploads/a04fbc1252412fc557dbc7918d445085"
+    },
+    {
+      "name": "Tran Van Duc",
+      "phone": "0952424245",
+      "id": "c4edc5",
+      "avatar": "uploads/68dd6030920193e924d178c48231e161"
     }
   ],
   "products": [
