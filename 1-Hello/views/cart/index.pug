@@ -1,14 +1,14 @@
 extends ../layouts/common
 
 block content
-	h1 Products
+	h1 Cart
 	.d-flex.align-items-center
 		form.ml-auto(action="/users/search", method="GET", class="d-flex")
 			input(type="text", name="q", class="form-control")
 			button(class="btn btn-primary ml-2") Search
 
 	.row.mb-5
-		each product in products
+		each product in productsAddToCart
 			.col-sm-3
 				.card(style='width: 18rem;').mb-4
 					img.card-img-top(src=product.image alt='')
