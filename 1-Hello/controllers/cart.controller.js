@@ -24,27 +24,5 @@ module.exports.addToCart = function(req, res, next){
 };
 
 module.exports.index = function(req, res, next){
-	var sessions = db.get('sessions').value();
-	var sessionId = req.signedCookies.sessionId;
-
-	if(sessions.id !== sessionId){
-		res.redirect('products');
-		return;
-	}
-
-	var productIdsInCart = Object.keys(sessions.cart);
-	var products = db.get('products').value();
-	var productsAddToCart = [];
-
-	for(var productId in productIdsInCart){
-		var temp = products.filter(function(product) {
-			return product.id === productId;
-		});
-		productsAddToCart.push(temp[0]);
-	}
-
-	res.render('cart/index', {
-
-		productsAddToCart: productsAddToCart
-	});
+	
 }
