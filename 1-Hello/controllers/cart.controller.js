@@ -22,7 +22,3 @@ module.exports.addToCart = function(req, res, next){
 
 	res.redirect('/products');
 };
-
-module.exports.index = function(req, res, next){
-	
-}
